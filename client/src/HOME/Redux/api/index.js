@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url ='http://localhost:5000';
+const url ='http://localhost:50000/';
 export const fetchcollege =()=>axios.get(`${url}/sec`);
 export const fetchone=(id)=>axios.get(`${url}/overview/${id}`)
 export const fetchfees=(id)=>axios.get(`${url}/fees/${id}`)
